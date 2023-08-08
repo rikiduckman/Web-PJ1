@@ -1,0 +1,106 @@
+.second{
+    color: rgb(241, 241, 241);
+    height: 400px;
+    max-width: 100%;
+    border: 1px solid rgb(36, 36, 36);
+    background-color: rgb(16, 21, 66);
+}
+.tsc{
+    margin-top:150px;
+    text-align: center;
+}
+.middle{
+    margin-top: 30px;
+    width: 100%;
+    text-align: center;
+}
+hr{
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-bottom: 30px;
+}
+.btnews1{
+    margin-left: 600px;
+}
+.news2{
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 450px;
+    max-width: 100%;
+    column-gap: 10px;
+    background-color: rgb(16, 21, 66);
+}
+.picst1{
+    height: 400px;
+}
+.picst2{
+    height: 400px;
+}
+.picst3{
+    height: 400px;
+}
+.hdweb{
+    margin-top: 30px;
+    text-align: center;
+}
+.web{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 2rem;
+    text-align: center;
+}
+.wpic1{
+    height: 200px;
+}
+.wpic2{
+    height: 200px;
+}
+.wpic3{
+    height: 200px;
+}
+.wpic4{
+    height: 200px;
+}
+@media screen and (max-width: 767px){
+    .second{
+        font-size: 12px;
+    }
+    .news2{
+        height: 900px;
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+    .picst1{
+        margin-top: 30px;
+        height: 200px;
+    }
+    .picst2{
+        margin-top: 30px;
+        height: 200px;
+    }
+    .picst3{
+        margin-top: 30px;
+        height: 200px;
+    }
+    .web{
+       grid-template-columns: 1fr;
+    }
+    .n1pic{
+        width: 100%;
+    }
+    .nav{
+        font-size: 14px;
+        text-align: center;
+        flex-direction:column;
+        width: 100%;
+    }
+    ul{
+        text-align: center;
+        flex-direction: column;
+    }
+    .csitlogo{
+        align-items: center;
+        margin-right: 55px;
+    }
+}
