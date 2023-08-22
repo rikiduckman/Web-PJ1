@@ -1,0 +1,40 @@
+.bt3{
+    color: rgb(255, 115, 33);
+}
+.plan-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    margin-top: 100px;
+    text-align: center;
+    height: 400px;
+}
+.linecs{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.lineit{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+a:hover{
+    color: rgb(255, 181, 21);
+}
+@media screen and (max-width: 767px){
+    .nav{
+        font-size: 14px;
+        text-align: center;
+        flex-direction:column;
+        width: 100%;
+    }
+    ul{
+        text-align: center;
+        flex-direction: column;
+    }
+    .csitlogo{
+        align-items: center;
+        margin-right: 55px;
+    }
+    .plan-box{
+        grid-template-columns: 1fr;
+    }
+}
